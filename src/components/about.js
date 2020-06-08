@@ -14,7 +14,7 @@ function About() {
         </div>
         <div className="col-xs-9">
           <div className="ptitle">
-            <h1>About</h1>{" "}
+            About{" "}
           </div>
 
           <div className="pbody">

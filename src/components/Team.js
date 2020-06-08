@@ -13,12 +13,10 @@ function Team() {
           />
         </div>
         <div className="col-xs-9">
-          <div className="ptitle">
-            <h1>Team</h1>{" "}
-          </div>
+          <div className="ptitle">Team</div>
 
           <div className="pbody">
-            <p> About Team</p>
+            <p> Meet our Team of Mentors </p>
           </div>
         </div>
       </div>

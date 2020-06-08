@@ -14,7 +14,7 @@ function Projects() {
         </div>
         <div className="col-xs-9">
           <div className="ptitle">
-            <h1>Projects</h1>{" "}
+            Projects
           </div>
 
           <div className="pbody">
