@@ -10,10 +10,6 @@ git clone https://github.com/<your username>/codesis-website.git
 ### `yarn install`
 
 5. Once the dependencies are installed,run:
-=======
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `yarn start`
 
