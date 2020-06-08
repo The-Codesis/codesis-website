@@ -1,0 +1,47 @@
+
+
+.about-text {
+  margin: 20px;
+  margin-bottom: 10px !important;
+}
+.col-xs-3 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+  }
+  
+  .col-xs-9 {
+    width: 75%;
+    padding: 0 15px;
+    float: right;
+    text-align: left;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+  }
+  
+  .section {
+    padding-top: 80px;
+    overflow: auto;
+  }
+  .ptitle {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 1em !important;
+    margin: 10px auto 15px auto;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .pbody {
+    letter-spacing: 1.2px;
+    word-spacing: 1.5px;
+    line-height: 2.5;
+    font-size: 14px !important;
+    font-weight: 550;
+    margin: 40px auto 15px auto;
+    color: #383838;
+  }
