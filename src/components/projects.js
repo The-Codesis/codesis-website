@@ -18,7 +18,7 @@ function Projects() {
           </div>
 
           <div className="pbody">
-            <h1> About Projects</h1>
+            <p> About Codesis</p>
           </div>
         </div>
       </div>

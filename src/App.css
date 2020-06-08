@@ -38,7 +38,10 @@ nav {
 .dark-theme code {
   color: red;
 }
-.dark-theme pbody {
+.dark-theme .ptitle{
+  color: rgb(210, 54, 105);
+}
+.dark-theme .pbody {
   color: white;
 }
 

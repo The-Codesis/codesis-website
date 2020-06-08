@@ -18,7 +18,7 @@ function About() {
           </div>
 
           <div className="pbody">
-            <h3> About Codesis</h3>
+            <p> About Codesis</p>
           </div>
         </div>
       </div>
