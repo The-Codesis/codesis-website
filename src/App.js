@@ -5,7 +5,7 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Team from "./components/Team"
 function App() {
-  const [darkTheme, setDarkTheme] = React.useState(false);
+  const [darkTheme, setDarkTheme] = React.useState(true);
   return (
     <div className={darkTheme ? "dark-theme" : "light-theme"}>
       <nav>
