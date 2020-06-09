@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #444444;
+}
+
+nav {
+  display: flex;
+  background-color: #503d81;
+  width: 100%;
+  padding: 20px;
+  padding-left: 0px!important;
+  color: #f8f8f8;
+}
+
+.content {
+  padding: 0.5em;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  height: 90vh;
+}
+.dark-theme {
+  background-color: #1f1b24;
+  color: #f8f8f8;
+}
+
+.dark-theme nav {
+  background-color: #332940;
+}
+
+.dark-theme code {
+  color: red;
+}
+.dark-theme .ptitle{
+  color: rgb(210, 54, 105);
+}
+.dark-theme .pbody {
+  color: white;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
