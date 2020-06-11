@@ -3,9 +3,9 @@ import "./style.css";
 function NavBar() {
   return (
     <div className="about-container">
-      <span className="about-text">About</span>
-      <span className="about-text">Projects</span>
-      <span className="about-text">Team</span>
+      <span><a href="#about" className="about-text">About</a></span>
+      <span><a href="#projects" className="about-text">Projects</a></span>
+      <span><a href="#team" className="about-text">Team</a></span>
     </div>
   );
 }

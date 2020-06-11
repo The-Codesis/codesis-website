@@ -3,7 +3,7 @@ import "./style.css";
 import logo from "../images/logo.jpg";
 function About() {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <div className="row">
         <div className="col-xs-3" style={{ borderRadius: "50px!important" }}>
           <img
@@ -18,7 +18,7 @@ function About() {
           </div>
 
           <div className="pbody">
-            <p> About Codesis</p>
+            <p> About Codesis </p>
           </div>
         </div>
       </div>
