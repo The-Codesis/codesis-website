@@ -11,7 +11,7 @@ function App() {
       <nav>
         <NavBar />
         <button onClick={() => setDarkTheme((prevTheme) => !prevTheme)}>
-          {darkTheme ? "Dark" : "Light"}
+          {darkTheme ? "Light" : "Dark"}
         </button>
       </nav>
       <div className="app">
