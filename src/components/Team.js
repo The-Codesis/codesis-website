@@ -3,7 +3,7 @@ import "./style.css";
 import logo from "../images/logo.jpg";
 function Team() {
   return (
-    <div className="section">
+    <div className="section" id="team">
       <div className="row">
         <div className="col-xs-3" style={{ borderRadius: "50px!important" }}>
           <img

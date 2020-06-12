@@ -38,3 +38,8 @@
   color: #383838;
   font-size: 18px;
 }
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: line; 
+}
