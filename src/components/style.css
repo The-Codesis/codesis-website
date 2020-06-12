@@ -41,5 +41,5 @@
 
 a {
   color: rgb(255, 255, 255);
-  text-decoration: none; /* no underline */
+  text-decoration: line; 
 }
