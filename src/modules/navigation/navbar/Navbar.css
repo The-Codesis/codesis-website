@@ -1,0 +1,10 @@
+.navbar {
+    padding-right: 0!important;
+}
+
+.navbar .container {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+
+

@@ -1,0 +1,62 @@
+.banner {
+    background-color: #dddddd;
+}
+
+.container {
+    position: relative;
+}
+
+.banner-content{
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 6rem;
+}
+
+.banner-content p {
+    font-size: 2rem;
+}
+
+@media (max-width: 1080px) {
+    .banner-content h1 {
+        font-size: 5rem;
+    }
+    
+    .banner-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 4rem;
+    }
+    
+    .banner-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .banner-content h1 {
+        font-size: 3rem;
+    }
+    
+    .banner-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+    
+    .banner-content p {
+        font-size: 0.5rem;
+    }
+}
