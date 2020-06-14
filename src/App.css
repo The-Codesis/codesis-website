@@ -46,6 +46,10 @@ nav {
   color: white;
 }
 
+.dark-theme .handle{
+  color: white;
+}
+
 .button-container {
   margin-top: 20px;
   margin-bottom: 10px;

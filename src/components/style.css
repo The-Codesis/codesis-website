@@ -43,3 +43,15 @@ a {
   color: rgb(255, 255, 255);
   text-decoration: line; 
 }
+
+.contact-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.handle{
+  font-size: 16px;
+  text-decoration: none;
+  color: #383838;
+}

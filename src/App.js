@@ -4,6 +4,7 @@ import NavBar from "./components/navbar";
 import About from "./components/about";
 import Projects from "./components/projects";
 import Team from "./components/Team"
+import Contact from "./components/contact"
 function App() {
   const [darkTheme, setDarkTheme] = React.useState(true);
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Projects />
         <Team/>
+        <Contact/>
       </div>
     </div>
   );
