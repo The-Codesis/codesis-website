@@ -45,6 +45,3 @@ git push -u origin GH-issuenumber-title-of-issue
 
 Make it clear,complete and simple so your PR gets merged easily !
 
-
-
-
