@@ -31,7 +31,7 @@ git checkout -b GH-issuenumber-title-of-issue
 ```
 git push -u origin GH-issuenumber-title-of-issue
 ```
-### Pull Request
+**Pull Request**
 
 - When finished create a pull request from your branch to the main codesis-website repository.
 
