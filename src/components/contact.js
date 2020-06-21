@@ -3,7 +3,6 @@ import "./style.css";
 import logo from "../images/logo.jpg"
 import discord from "../images/discord.png"
 import slack from "../images/slack.png"
-import gh from "../images/gh.png"
 function Contact(){
     return (
         <div className="section" id="contact">
