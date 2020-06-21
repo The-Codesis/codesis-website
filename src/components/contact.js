@@ -22,15 +22,10 @@ function Contact(){
 
           <div className="pbody">
             <p>Want to join our community? You can find us on :</p>
-              <p>
-              <a href="https://discord.gg/B3Ce9YE" target="__blank" className="handle"><img src={discord} alt="discord" className="contact-icon"/> Discord</a> 
-              </p>
-              <p>
-              <a href="https://lnkd.in/gYac5Ci" target="__blank" className="handle"><img src={slack} alt="slack" className="contact-icon"/> Slack</a>
-              </p>
-              <p>
-              <a href="https://github.com/The-Codesis" target="__blank" className="handle"><img src={gh} alt="slack" className="contact-icon"/> GitHub</a>
-              </p>
+            <p> 
+               <span className="handle"> <a href="https://discord.gg/B3Ce9YE" target="__blank" className="link"><img src={discord} alt="discord" className="contact-icon"/> Discord</a> </span>
+               <span className="handle"> <a href="https://lnkd.in/gYac5Ci" target="__blank" className="link"><img src={slack} alt="slack" className="contact-icon"/> Slack</a></span>
+            </p>
           </div>
           
         </div>
