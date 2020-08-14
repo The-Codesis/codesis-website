@@ -7,14 +7,17 @@ import Team from "./components/Team"
 import Contact from "./components/contact"
 function App() {
   const [darkTheme, setDarkTheme] = React.useState(true);
+
+  //Used to toggle the value of darkTheme when the button is pressed.
+  function handleClick() {
+    setDarkTheme(!darkTheme);
+  }
+
   return (
     <div className={darkTheme ? "dark-theme" : "light-theme"}>
-      <nav>
-        <NavBar />
-        <button onClick={() => setDarkTheme((prevTheme) => !prevTheme)}>
-          {darkTheme ? "Light" : "Dark"}
-        </button>
-      </nav>
+
+      {/* Value of darkTheme is passed in order to dynamically change the Button Text */}
+      <NavBar onClick={handleClick} darkTheme={darkTheme}/>
       <div className="app">
         <About />
         <Projects />
